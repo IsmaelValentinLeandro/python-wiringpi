@@ -22,7 +22,6 @@ python3 generate-bindings.py > bindings.i
 sudo python3 setup.py install
 ```
 ### 1.4. Testar wiringpi-python
-Usage
 =====
 
 .. code:: python
@@ -33,7 +32,6 @@ Usage
     wiringpi.wiringPiSetup()      # For sequential pin numbering
 
 **General IO:**
-
 .. code:: python
 
     wiringpi.pinMode(6, 1)       # Set pin 6 to 1 ( OUTPUT )
