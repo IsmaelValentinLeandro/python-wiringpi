@@ -1,4 +1,8 @@
 ## 1. INSTALAR WP
+
+## FONTE
+https://github.com/orangepi-xunlong/wiringOP-Python/tree/master
+
 ### 1.1. extrair o arquivo zip, copiar na pasta /home/wiringOP-Python e acessar
 ```
 cd /home/wiringOP-Python
@@ -36,5 +40,3 @@ Usage
     wiringpi.digitalWrite(6, 1)  # Write 1 ( HIGH ) to pin 6
     wiringpi.digitalRead(6)      # Read pin 6
 
-## FONTE
-https://github.com/orangepi-xunlong/wiringOP-Python/tree/master
