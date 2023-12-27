@@ -18,16 +18,23 @@ python3 generate-bindings.py > bindings.i
 sudo python3 setup.py install
 ```
 ### 1.4. Testar wiringpi-python
-```
-import wiringpi
+Usage
+=====
 
-# One of the following MUST be called before using IO functions:
-wiringpi.wiringPiSetup()      # For sequential pin numbering
-General IO:
+.. code:: python
 
-wiringpi.pinMode(6, 1)       # Set pin 6 to 1 ( OUTPUT )
-wiringpi.digitalWrite(6, 1)  # Write 1 ( HIGH ) to pin 6
-wiringpi.digitalRead(6)      # Read pin 6
-```
+    import wiringpi
+
+    # One of the following MUST be called before using IO functions:
+    wiringpi.wiringPiSetup()      # For sequential pin numbering
+
+**General IO:**
+
+.. code:: python
+
+    wiringpi.pinMode(6, 1)       # Set pin 6 to 1 ( OUTPUT )
+    wiringpi.digitalWrite(6, 1)  # Write 1 ( HIGH ) to pin 6
+    wiringpi.digitalRead(6)      # Read pin 6
+
 ## FONTE
 https://github.com/orangepi-xunlong/wiringOP-Python/tree/master
