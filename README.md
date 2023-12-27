@@ -1,11 +1,16 @@
 ## INSTALAR WP
-```
-# extrair o arquivo zip, copiar na pasta /home/ 
+extrair o arquivo zip, copiar na pasta /home/ 
 Acessar pasta /home/wiringOP-Python
-# cd /home/wiringOP-Python
-Atualizar sistema e instalar ferramentas
-# sudo apt update
-# sudo apt-get install swig python3-dev python3-setuptools
+```
+cd /home/wiringOP-Python
+```
+### Atualizar sistema e instalar ferramentas
+```
+sudo apt update
+```
+```
+sudo apt-get install swig python3-dev python3-setuptools
+```
 Compilar wiringpi-python
 # python3 generate-bindings.py > bindings.i
 # sudo python3 setup.py install
